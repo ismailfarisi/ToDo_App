@@ -2,7 +2,6 @@ package com.example.todo.ui.main
 
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -13,7 +12,6 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.todo.R
 import com.example.todo.data.Project
-import com.example.todo.util.TAG
 import kotlinx.android.synthetic.main.main_fragment.*
 
 class MainFragment : Fragment() , AddProjectDialog.NoticeDialogListener {
